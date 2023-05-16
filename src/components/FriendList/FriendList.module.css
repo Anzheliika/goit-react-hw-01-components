@@ -1,0 +1,13 @@
+.friendList {
+  width: 400px;
+  height: 700px;
+  margin-top: 20px;
+  /* background-color: #c2e5f4; */
+  /* box-shadow: 10px 5px 5px #afcbc8; */
+  /* border-radius: 8px; */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}

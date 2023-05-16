@@ -1,0 +1,39 @@
+.item {
+  flex-grow: 1;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+
+  background-color: #aec8f6;
+  box-shadow: 10px 5px 5px #afcbc8;
+  border-radius: 8px;
+}
+.item:not(:last-child) {
+  margin-bottom: 12px;
+}
+.status {
+  width: 20px;
+  height: 20px;
+  background-color: blue;
+  border-radius: 50%;
+
+  margin-right: 10px;
+}
+.true {
+  background-color: #19b20f;
+}
+
+.false {
+  background-color: #dd2626;
+}
+
+.avatar {
+  width: 90px;
+  margin-right: 20px;
+}
+
+.name {
+  font-size: 26px;
+  font-weight: 600;
+}

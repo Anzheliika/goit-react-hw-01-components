@@ -16,9 +16,13 @@ body {
   line-height: 1.5;
   background-color: #fafafa;
   scroll-behavior: smooth;
+}
+
+#root {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 code {
@@ -33,7 +37,9 @@ ul {
   list-style: none;
 }
 
-p {
+p,
+h1,
+h2 {
   margin: 0;
   padding: 0;
 }
